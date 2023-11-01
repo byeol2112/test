@@ -1,0 +1,220 @@
+#about{}
+#about .container{
+  width: 100%;
+}
+
+#about .title{
+  padding-bottom: 100px;
+  position: relative;
+}
+
+#about .title span{
+  display: block;
+  position: absolute;
+  bottom: 90px;
+  left: 0;
+  width: 170px;
+  height: 1px;
+  background-color: var(--color-yellow);
+}
+
+#about .title span:nth-child(2){
+  width: 50px;
+  transform: rotate(45deg);
+  left: 162.52px;
+  bottom: 72.5px;
+}
+
+#about .profile{
+  display: flex;
+  gap: 100px;
+  height: 450px;
+}
+
+/* profile-1 */
+#about .profile-1{
+  margin: auto 0;
+  position: relative;
+}
+
+#about .profile-1::after{
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -3px;
+  width: 200px;
+  height: 255px;
+  border: 1px solid var(--color-yellow);
+  border-radius: 50%;
+  transform: rotate(7deg);
+}
+
+#about .profile-1 img{
+  border-radius: 50%;
+}
+
+#about .profile-1 .profile-desc{
+  margin: 40px 0 0 30px;
+}
+
+#about .profile-1 .profile-desc h2{
+  color: var(--color-yellow);
+  padding-bottom: 10px;
+}
+
+#about .profile-1 .profile-desc p{
+  line-height: 1.8;
+}
+
+/* profile-2 */
+#about .profile-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#about .profile-2 .mind{
+  position: relative;
+}
+
+#about .profile-2 .mind p{
+  text-align: justify;
+}
+
+#about .profile-2 .mind p a{
+  position: absolute;
+  right: 0;
+  width: 120px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 20px;
+  border: 1px solid var(--color-yellow);
+  margin-top: 30px;
+  font-size: 12px;
+  text-align: center;
+  color: var(--color-white);
+  background: rgba(255, 255, 255, .2);
+}
+
+#about .profile-2 .mind p a:hover{
+  background: var(--color-yellow);
+  color: #050801;
+  box-shadow: 0 0 5px var(--color-yellow),
+              0 0 25px var(--color-yellow),
+              0 0 5px var(--color-yellow),
+              0 0 25px var(--color-yellow);
+  border: none;
+}
+
+#about .profile-2 .edu{}
+
+#about .profile-2 .edu h2{
+  margin-bottom: 8px;
+}
+
+#about .profile-2 .edu hr{
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(255, 193, 45), rgba(255, 193, 45 ,0));
+  margin-bottom: 24px;
+}
+
+#about .profile-2 .edu .edu-1{
+  line-height: 1.8;
+  display: flex;
+  justify-content: space-between;
+}
+
+#about .profile-2 .edu > p{
+  text-align: right;
+  color: var(--color-blue);
+  
+}
+
+#about .profile-2 .edu:nth-child(1) > p,
+#about .profile-2 .edu:nth-child(2) > p{
+  margin-bottom: 15px;
+}
+
+/* profile-3 */
+#about .profile-3{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#about .profile-3 .skill{}
+
+#about .profile-3 .skill h2{
+  margin-bottom: 8px;
+}
+
+#about .profile-3 .skill hr{
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(255, 193, 45), rgba(255, 193, 45 ,0));
+  margin-bottom: 24px;
+}
+
+#about .profile-3 .skill nav{}
+
+#about .profile-3 .skill nav ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+#about .profile-3 .skill nav ul li{}
+
+#about .profile-3 .skill nav ul li img{
+  width: 90px;
+}
+
+#about .profile-3 .skill nav ul li p{
+  text-align: center;
+}
+
+#about .profile-3 .personality{}
+
+#about .profile-3 .personality h2{
+  margin-bottom: 8px;
+}
+
+#about .profile-3 .personality hr{
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(255, 193, 45), rgba(255, 193, 45 ,0));
+  margin-bottom: 24px;
+}
+
+#about .profile-3 .personality nav{}
+
+#about .profile-3 .personality nav ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+#about .profile-3 .personality nav ul li:nth-child(odd){
+  width: 120px;
+  height: 120px;
+  background-color: rgba(255, 255, 255, .2);
+  border: 1px solid var(--color-yellow);
+  border-radius: 50%;
+}
+
+#about .profile-3 .personality nav ul li:nth-child(2n){
+  line-height: 120px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#about .profile-3 .personality nav ul li p{
+  text-align: center;
+  line-height: 1.5;
+  padding-top: 36px;
+}
+
+#about .profile-3 .personality nav ul li p span{
+  color: var(--color-blue);
+  font-family: 'SCDream-Regular';
+  font-weight: bold;
+}

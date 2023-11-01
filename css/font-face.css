@@ -1,0 +1,44 @@
+@font-face{
+    font-family: 'SCDream-ExtraBold';
+    src: url('../font/S-Core_Dream_OTF/woff/SCDream7.woff') format('woff'),
+         url('../font/S-Core_Dream_OTF/eot/SCDream7.eot') format('eot'),
+         url('../font/S-Core_Dream_OTF/otf/SCDream7.otf') format('opentype');
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  @font-face{
+    font-family: 'SCDream-Bold';
+    src: url('../font/S-Core_Dream_OTF/woff/SCDream6.woff') format('woff'),
+         url('../font/S-Core_Dream_OTF/eot/SCDream6.eot') format('eot'),
+         url('../font/S-Core_Dream_OTF/otf/SCDream6.otf') format('opentype');
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+  @font-face{
+    font-family: 'SCDream-Regular';
+    src: url('../font/S-Core_Dream_OTF/woff/SCDream4.woff') format('woff'),
+         url('../font/S-Core_Dream_OTF/eot/SCDream4.eot') format('eot'),
+         url('../font/S-Core_Dream_OTF/otf/SCDream4.otf') format('opentype');
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  @font-face{
+    font-family: 'SCDream-ExtraLight';
+    src: url('../font/S-Core_Dream_OTF/woff/SCDream2.woff') format('woff'),
+         url('../font/S-Core_Dream_OTF/eot/SCDream2.eot') format('eot'),
+         url('../font/S-Core_Dream_OTF/otf/SCDream2.otf') format('opentype');
+    font-style: normal;
+    font-weight: 200;
+  }
+  
+  @font-face{
+    font-family: 'QumpellkaNo12';
+    src: url('../font/qumpellkano12/QumpellkaNo12.woff') format('woff'),
+         url('../font/qumpellkano12/QumpellkaNo12.eot') format('eot'),
+         url('../font/qumpellkano12/QumpellkaNo12.otf') format('opentype');
+    font-style: normal;
+    font-weight: normal;
+  }

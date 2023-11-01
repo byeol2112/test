@@ -1,0 +1,150 @@
+#portfolio{}
+#portfolio .container{
+  width: 100%;
+}
+
+#portfolio .title{
+  padding-bottom: 100px;
+  position: relative;
+}
+
+#portfolio .title span{
+  display: block;
+  position: absolute;
+  bottom: 90px;
+  left: 0;
+  width: 170px;
+  height: 1px;
+  background-color: var(--color-yellow);
+}
+
+#portfolio .title span:nth-child(2){
+  width: 50px;
+  transform: rotate(45deg);
+  left: 162.52px;
+  bottom: 72.5px;
+}
+
+/* content */
+.content{
+  display: flex;
+}
+
+.content .video{
+  flex-basis: 65%;
+  padding: 0 60px;
+}
+
+.content .v-main{
+  margin-bottom: 20px;
+}
+
+.content .v-main img{
+  width: 725px;
+  height: 408px;
+}
+
+.swiper{
+  width: 725px;
+  height: 100%;
+}
+
+.content .swiper-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.content .swiper-wrapper li{
+  width: 100%;
+}
+
+.content .swiper-wrapper li img{
+  width: 230px;
+  height: 130px;
+}
+
+.content .v-content{
+  flex-basis: 35%;
+  padding: 50px 100px 0 0;
+  position: relative;
+}
+
+.content .v-content h2{
+  font-size: 28px;
+  color: var(--color-yellow);
+}
+
+.content .v-content hr{
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(255, 193, 45), rgba(255, 193, 45 ,0));
+  margin: 15px 0 24px;
+}
+
+.content .v-content > p{
+  margin-bottom: 50px;
+}
+
+.content .v-content .v-desc{
+  display: flex;
+  line-height: 35px;
+}
+
+.content .v-content .v-desc::before{
+  content: '';
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  top: -50px;
+  left: -140px;
+  background-color: var(--color-blue);
+  opacity: .8;
+  z-index: -1;
+}
+
+.content .v-content .v-desc .left{
+  font-weight: 900;
+  color:var(--color-navy);
+  margin-right: 30px;
+}
+
+.content .v-content .v-desc .right{}
+
+/* 모달창 */
+.modal{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* width: 100%;
+  height: 100%; */
+  z-index: 999;
+}
+
+.modal.show{
+  display: block;
+}
+
+.modal .item_box{
+  position: relative;
+  z-index: 999;
+  top: 550px;
+  left: 562px;
+  transform: translate(-50%, -50%);
+  width: 726px;
+  height: 408px;
+  border: 1px solid red;
+}
+
+.modal .item_box iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
